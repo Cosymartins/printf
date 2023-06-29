@@ -2,7 +2,7 @@
 
 /* write handle*/
 /**
- * handle_write_char: for str print
+ * handle_write_char - for str print
  * @c: char types.
  * @buffer: array for print handlng
  * @flags:computation of flags
@@ -46,7 +46,7 @@ int handle_write_char(char c, char buffer[],
 
 /*write_number */
 /**
- * write_number: prints strng
+ * write_number - prints strng
  * @is_negative: for listing arguments
  * @ind: char types.
  * @buffer: array to handl3 prin_t
@@ -78,7 +78,7 @@ int write_number(int is_negative, int ind, char buffer[],
 }
 
 /**
- * write_num:wtite num using bufer
+ * write_num - wtite num using bufer
  * @ind: the index wher the num start
  * @buffer:the buffer
  * @flags: flaqs
@@ -136,7 +136,7 @@ int write_num(int ind, char buffer[],
 }
 
 /**
- * write_unsgnd: it writes unsigned no.
+ * write_unsgnd - it writes unsigned no.
  * @is_negative: indicates whether no. is +ve or -ve
  * @ind:where num starts in buffer
  * @buffer: array of chars
@@ -193,7 +193,7 @@ int write_unsgnd(int is_negative, int ind,
 }
 
 /**
- * write_pointer: for writing a mem add
+ * write_pointer - for writing a mem add
  * @buffer: array of chars
  * @ind: Index at which the number starts in the buffer
  * @length:the len of num

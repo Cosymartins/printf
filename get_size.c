@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * get_size:computes the sizfor arguments casting
- * @format-fomated str!ng in which the arguments can be printed
+ * get_size - computes the sizfor arguments casting
+ * @format: fomated str!ng in which the arguments can be printed
  * @i:arguments to print
- *
  * Return: -_precision
  */
 int get_size(const char *format, int *i)

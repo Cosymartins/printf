@@ -2,11 +2,11 @@
 
 
 /**
- * print_char: this prints a character
+ * print_char - this prints a character
  * @types: a lis of specified arguments
  * @buffer: the array that handles the print fxn
  * @flags:  this computes the active flags
- * @width: the width. 
+ * @width: the width.
  * @precision: the specification precision
  * @size: the size specifier.
  * Return: it will return the number of characters printed
@@ -20,7 +20,7 @@ int print_char(va_list types, char buffer[],
 }
 
 /**
- * print_string:string printing
+ * print_string - string printing
  * @types: a list of arguments
  * @buffer: the array to handle print
  * @flags:computation of active flags
@@ -75,7 +75,7 @@ int print_string(va_list types, char buffer[],
 }
 
 /**
- * print_percent: printing a percentage sign
+ * print_percent - printing a percentage sign
  * @types:listing of arguments
  * @buffer: array to handle print.
  * @flags: computation of active flags
@@ -97,7 +97,7 @@ int print_percent(va_list types, char buffer[],
 }
 
 /**
- * print_int: int printing
+ * print_int - int printing
  * @types: arguments listing
  * @buffer: array handling  print
  * @flags: active flags computation
@@ -140,7 +140,7 @@ int print_int(va_list types, char buffer[],
 }
 
 /**
- * print_binary:unsigned num printing
+ * print_binary - unsigned num printing
  * @types:arguments list
  * @buffer: the array to handle print
  * @flags:  calculation of active flags.

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_pointer:printings pointer variable
+ * print_pointer - printings pointer variable
  * @types:argument list
  * @buffer: array to handling print
  * @flags:active flag calculaion
@@ -52,13 +52,13 @@ int print_pointer(va_list types, char buffer[],
 }
 
 /**
- * print_non_printabl: ascii codes in hexa of non_printable characters
+ * print_non_printable - ascii codes in hexa of non_printable characters
  * @types: arguments listing
  * @buffer:array handling print
  * @flags:com,pute  active flags
  * @width: width
- * @precisio- specification of precision
- * @size- specifier for z!ze
+ * @precision: specification of precision
+ * @size: specifier for z!ze
  * Return: characters printeD
  */
 int print_non_printable(va_list types, char buffer[],
@@ -92,7 +92,7 @@ int print_non_printable(va_list types, char buffer[],
 
 
 /**
- * print_reverse:prrints reverse str
+ * print_reverse - prrints reverse str
  * @types: argument listing
  * @buffer: array of buffer to handle print
  * @flags:active flags calkculation
@@ -135,7 +135,7 @@ int print_reverse(va_list types, char buffer[],
 }
 
 /**
- * print_rot13string: printing a string in rot13
+ * print_rot13string -  printing a string in rot13
  * @types: listing arguments
  * @buffer: array  handling print
  * @flags:culc active flags

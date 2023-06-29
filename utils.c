@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_printable:check if char is print@ble
+ * is_printable - check if char is print@ble
  * @c:the character to be checked
  * Return: return 1 if char printable, else 0
  */
@@ -14,7 +14,7 @@ int is_printable(char c)
 }
 
 /**
- * append_hexa_code: for appending the ascci in hexadecimal code
+ * append_hexa_code - for appending the ascci in hexadecimal code
  * @buffer:char array
  * @i:appending index
  * @ascii_code: asccii_code CODE
@@ -51,7 +51,7 @@ int is_digit(char c)
 }
 
 /**
- * convert_size_number:casts no to given size
+ * convert_size_number - casts no to given size
  * @num:no. to be casted
  * @size:indicates no. to cast
  * Return:casted value
@@ -67,7 +67,7 @@ long int convert_size_number(long int num, int size)
 }
 
 /**
- * convert_size_unsgnd:cast no to specifyd s!ze
+ * convert_size_unsgnd - cast no to specifyd s!ze
  * @num: no to cast
  * @size: indicator for type casted
  * Return: the casted value

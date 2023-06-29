@@ -3,7 +3,7 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf: this is the printf fxn
+ * _printf - this is the printf fxn
  * @format: formating
  * Return: Printed characters
  */
@@ -53,9 +53,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer: this will print the contents of the buffer incase of existence
+ * print_buffer - this will print the content of the buffer incase of existence
  * @buffer: it is an array of characters
- * @buff_ind:the index wherein we add the  next chacter,and it represents the len
+ * @buff_ind: the index wherein we add the next char,and it represents the len
  */
 void print_buffer(char buffer[], int *buff_ind)
 {

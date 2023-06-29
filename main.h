@@ -19,10 +19,9 @@
 #define S_SHORT 1
 
 /**
- * struct fmt: struct
- *
- * @fmt: format
- * @fn: associated fxn
+ *struct fmt - struct
+ *@fmt: f0rmat
+ *@fn: associated fxn
  */
 struct fmt
 {

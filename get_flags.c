@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * get_flags:this computes the active flagz
+ * get_flags - this computes the active flagz
  * @format: the formatted  string onto which arguments are printed
  * @i:this takes a paraemeter
- * Return- fl@gs
+ * get_flags: obtain flags
+ * Return: fl@gs
  */
 int get_flags(const char *format, int *i)
 {
